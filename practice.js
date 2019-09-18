@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+var me = {
+  name : 'nick',
+  age : 40,
+}
+//alert(me);
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,13 +28,23 @@
 */
 
 //Code here
+var favoriteThings = {
+  band : 'The Birthday Massacre',
+  food : "meatball pizza",
+  person : 'Amber',
+  book : 'The Shining',
+  movie : 'The Thing',
+  holiday : 'Halloween',
 
+}
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
 //Code here
+favoriteThings.car = 'minivan';
+favoriteThings.brand = 'thursday boots';
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,7 +52,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 ////////// PROBLEM 3 //////////
 
 /*
@@ -50,19 +65,22 @@
 */
 
 //Code here
-
+var backPack = { };
+var item = 'firstPocket';
+backPack[item] ='chapstick';
+// backPack.color.orange;
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+//alert(backPack);
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
 Instead, console.log your whole backPack object and then check out the console.
 */
-
+console.log(backPack);
 //Code here
 
 ////////// PROBLEM 4 //////////
@@ -85,6 +103,10 @@ var user2 = {
 */
 
 //Code Here
+
+// var copy = Object.assign({},user2);
+user2.email = 'bryan.smith@devmounta.in';
+user2.name = 'Bryan G. Smith';
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
